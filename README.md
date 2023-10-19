@@ -1,4 +1,4 @@
-# Progressive-Growing-GAN-Generative-Adversarial-Network-Implementatio
+# Progressive-Growing-GAN-Generative-Adversarial-Network-Implementation on OASIS brain Data Set
 
 ## Table of Contents
 
