@@ -82,7 +82,8 @@ Beyond the training losses, both the generator and the discriminater are trained
 ## Generated images
 After training the styleGAN model, a sample of generated images is output by the *predict.py* file:
 
-![Generated images by style generator: ](./output_images/generated_grid.png)
+![generated_grid](https://github.com/M-Hassan896/Progressive-Growing-GAN-Generative-Adversarial-Network-Implementatio/assets/123324623/32c879b1-047b-4519-ac56-2e7e5b121c51)
+
 
 At a glance, the generated images look quite impressive: the quality and resolution are decent; the details such as the grey and white matter seem to be captured well; and the generated images have a certain level of variety. In comparison to the real images shown before, despite a few of the generated images having some smudges / white dots, for which I'm not sure whether or not they are expected to appear in real MRI brain images, generally speaking, the generated images mimic the real ones quite well, which means the styleGAN model has fulfilled the given task.## Pre-processing
 Rather than directly importing the dataset, the *dataset.py* file specifically handles the OASIS brain data, which is stored on rangpur as three separate image files for training, testing and validation purposes, respectively, by using the *CustomImageDataset* class to read all the images with a few transformations applied. Due to the limitation of GPU memory, the batch size used is 16.
