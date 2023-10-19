@@ -12,6 +12,8 @@
 - [Key Achievements](#key-achievements)
 - [How to Use](#how-to-use)
 - [Dependencies](#dependencies)
+-  [Refrences](#Refrences)
+  
 
 
 ## Overview
@@ -114,6 +116,12 @@ Ensure you have the following dependencies installed:
 - PyTorch
 - torchvision
 - Matplotlib
+## Refrences
+
+  - Original paper on styleGAN: https://doi.org/10.48550/arXiv.1812.04948
+  - Referenced implementation of styleGAN model: https://doi.org/10.48550/arXiv.1812.04948
+  - Implementation StyleGAN1 from scratch:https://blog.paperspace.com/implementation-stylegan-from-scratch/
+
 
 You can install the required Python packages using `pip`:
 
