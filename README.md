@@ -12,7 +12,7 @@
 - [Key Achievements](#key-achievements)
 - [How to Use](#how-to-use)
 - [Dependencies](#dependencies)
-- [License](#license)
+-
 
 ## Overview
 
@@ -65,8 +65,6 @@ During the training process, the losses of both generator and discriminater are 
   - another regularization term based on the square of the scores assigned to the real images by the discriminater.
 
 For a clearer demonstration as well as comparison, the *train.py* file generates a plot of the losses of both generator and discriminater:
-
-![Losses plot: ](./output_images/losses_plot.png)
 
 This plot shows typical characteristics of the WGAN training framework:
   - Extreme initial losses: when the model starts to train, the generator produces random output images that the discriminater can easily distinguish from real ones, resulting in extremely high generator loss and low discriminater loss;
