@@ -44,6 +44,7 @@ A **styleGAN** model is constructed and used for the given task, which is a stat
 - **Weight-scaled Convolution**:
   In the styleGAN model, the weights of convolutional layers are all normalized by scaling the input to the convolution based on input channels and the kernel size, so that the training procedure is more stable.
   The weight-scaled convolution technique is achieved by the *WSConv2d* class in the *modules.py* file;
+  ![styleGAN_figure (1) (1)](https://github.com/M-Hassan896/Progressive-Growing-GAN-Generative-Adversarial-Network-Implementatio/assets/123324623/4e83ec19-e084-4b2e-9ea0-a45d27cf245e)
 
 *Note: the style mapping, AdaIN and stochastic variation techniques are used to construct the blocks of generator only, while the weight-scaled convolution is applied to both generator and discriminater.*
 
